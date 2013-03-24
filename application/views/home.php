@@ -7,15 +7,20 @@
 <body>
 	<div id="controller">
 		<p>My view has been loaded</p>
-		<pre>
-			<?php
-				print_r($records);
-			?>
+		<!--
+		<?php 
+		foreach ($rows as $r) {
+			echo "<h1>" . $r->title . "</h1>";
 
-			<?php foreach ($records as $row) :?>
-			<h1><?php echo $row->title;?></h1>
+		}?>
+		-->
+		
+		<?php foreach ($rows as $r) : ?>
+
+		<h1><?php echo $r->title;?></h1>
+		<div><?php echo $r->contents;?></div>
 		<?php endforeach; ?>
-		</pre>
+		
 	</div>
 </body>
 </html>
