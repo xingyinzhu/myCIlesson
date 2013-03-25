@@ -1,0 +1,44 @@
+#container{
+	width: 600px;
+	margin: auto;
+
+}
+
+table{
+	width: 600px;
+	margin-bottom: 10px;
+
+}
+
+td{
+	border-right: 1px solid #aaaaaa;
+	padding: 1em;
+
+}
+
+td:last-child{
+	border-right: none;
+}
+
+th{
+	text-align: left;
+	padding-left: 1em;
+	background: #cac9c9;
+	border-bottom: 1px solid white;
+	border-right: 1px solid #aaaaaa;
+}
+
+#pagination a, #pagination strong{
+	background: #cac9c9;
+	padding: 4px 3px;
+	text-decoration: none;
+	border: 3px solid #cac9c9;
+	color: #292929;
+	font-size: 13px;
+}
+
+#pagination strong, #pagination a:hover{
+	font-weight: normal;
+	background: #aaaaaa;
+
+}
