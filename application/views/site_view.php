@@ -15,7 +15,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
 <script type="text/javascript" charset="utf-8">
-	$('tr:add').css('background','#aaaaa');
+	$('tr:odd').css('background','#e3e3e3');
 </script>
 
 </body>
