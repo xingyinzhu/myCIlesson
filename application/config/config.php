@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
-//$config['base_url']	= 'http://localhost:8888/CI/';
-$config['base_url']	= 'http://localhost/CI/';
+$config['base_url']	= 'http://localhost:8888/CI/';
+//$config['base_url']	= 'http://localhost/CI/';
 
 $config['server_root'] = $_SERVER['DOCUMENT_ROOT'];
 

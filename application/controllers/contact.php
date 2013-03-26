@@ -26,7 +26,7 @@ class Contact extends CI_Controller
 			$this->load->view('includes/template', $data);
 		}
 		//$this->input->is_ajax_request()
-
+				
 		
 	}
 }
