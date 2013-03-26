@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost:8888/CI/';
-//$config['base_url']	= 'http://localhost/CI/';
+//$config['base_url']	= 'http://localhost:8888/CI/';
+$config['base_url']	= 'http://localhost/CI/';
 
 $config['server_root'] = $_SERVER['DOCUMENT_ROOT'];
 
@@ -31,7 +31,7 @@ $config['server_root'] = $_SERVER['DOCUMENT_ROOT'];
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------

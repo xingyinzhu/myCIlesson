@@ -5,7 +5,7 @@ body{
 	font-family: arial
 }
 
-#login_form{
+#login_form, #contact_form{
 	width: 300px;
 	background: #f0f0f0;
 	border:1px solid white;
