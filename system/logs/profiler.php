@@ -5,9 +5,9 @@
 
 
 <table style='width:100%'>
-<tr><td style='padding:5px;width:50%;color:#000;font-weight:bold;background-color:#ddd;'>Loading Time: Base Classes&nbsp;&nbsp;</td><td style='padding:5px;width:50%;color:#900;font-weight:normal;background-color:#ddd;'>0.0341</td></tr>
-<tr><td style='padding:5px;width:50%;color:#000;font-weight:bold;background-color:#ddd;'>Controller Execution Time ( Welcome / Index )&nbsp;&nbsp;</td><td style='padding:5px;width:50%;color:#900;font-weight:normal;background-color:#ddd;'>0.0416</td></tr>
-<tr><td style='padding:5px;width:50%;color:#000;font-weight:bold;background-color:#ddd;'>Total Execution Time&nbsp;&nbsp;</td><td style='padding:5px;width:50%;color:#900;font-weight:normal;background-color:#ddd;'>0.0757</td></tr>
+<tr><td style='padding:5px;width:50%;color:#000;font-weight:bold;background-color:#ddd;'>Loading Time: Base Classes&nbsp;&nbsp;</td><td style='padding:5px;width:50%;color:#900;font-weight:normal;background-color:#ddd;'>0.0279</td></tr>
+<tr><td style='padding:5px;width:50%;color:#000;font-weight:bold;background-color:#ddd;'>Controller Execution Time ( Test / Session )&nbsp;&nbsp;</td><td style='padding:5px;width:50%;color:#900;font-weight:normal;background-color:#ddd;'>0.0399</td></tr>
+<tr><td style='padding:5px;width:50%;color:#000;font-weight:bold;background-color:#ddd;'>Total Execution Time&nbsp;&nbsp;</td><td style='padding:5px;width:50%;color:#900;font-weight:normal;background-color:#ddd;'>0.0679</td></tr>
 </table>
 </fieldset>
 
@@ -17,7 +17,7 @@
 
 <fieldset id="ci_profiler_memory_usage" style="border:1px solid #5a0099;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
 <legend style="color:#5a0099;">&nbsp;&nbsp;MEMORY USAGE&nbsp;&nbsp;</legend>
-<div style='color:#5a0099;font-weight:normal;padding:4px 0 4px 0'>1,697,200 bytes</div></fieldset>
+<div style='color:#5a0099;font-weight:normal;padding:4px 0 4px 0'>1,717,928 bytes</div></fieldset>
 
 <fieldset id="ci_profiler_post" style="border:1px solid #009900;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
 <legend style="color:#009900;">&nbsp;&nbsp;POST DATA&nbsp;&nbsp;</legend>
@@ -25,11 +25,11 @@
 
 <fieldset id="ci_profiler_uri_string" style="border:1px solid #000;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
 <legend style="color:#000;">&nbsp;&nbsp;URI STRING&nbsp;&nbsp;</legend>
-<div style='color:#000;font-weight:normal;padding:4px 0 4px 0'>welcome</div></fieldset>
+<div style='color:#000;font-weight:normal;padding:4px 0 4px 0'>test/session</div></fieldset>
 
 <fieldset id="ci_profiler_controller_info" style="border:1px solid #995300;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
 <legend style="color:#995300;">&nbsp;&nbsp;CLASS/METHOD&nbsp;&nbsp;</legend>
-<div style='color:#995300;font-weight:normal;padding:4px 0 4px 0'>welcome/index</div></fieldset>
+<div style='color:#995300;font-weight:normal;padding:4px 0 4px 0'>test/session</div></fieldset>
 
 <fieldset style="border:1px solid #0000FF;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
 <legend style="color:#0000FF;">&nbsp;&nbsp;DATABASE:&nbsp; CI_Series&nbsp;&nbsp;&nbsp;QUERIES: 0&nbsp;&nbsp;(<span style="cursor: pointer;" onclick="var s=document.getElementById('ci_profiler_queries_db_1').style;s.display=s.display=='none'?'':'none';this.innerHTML=this.innerHTML=='Hide'?'Show':'Hide';">Hide</span>)</legend>
@@ -63,11 +63,12 @@
 <tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>HTTP_ACCEPT_ENCODING&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>gzip, deflate</td></tr>
 <tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>HTTP_X_FORWARDED_FOR&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'></td></tr>
 </table>
-</fieldset><fieldset id="ci_profiler_csession" style="border:1px solid #000;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee"><legend style="color:#000;">&nbsp;&nbsp;SESSION DATA&nbsp;&nbsp;(<span style="cursor: pointer;" onclick="var s=document.getElementById('ci_profiler_session_data').style;s.display=s.display=='none'?'':'none';this.innerHTML=this.innerHTML=='Show'?'Hide':'Show';">Show</span>)</legend><table style='width:100%;display:none' id='ci_profiler_session_data'><tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>session_id&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>4c1b0712a7890af108ade6cb477b5e85</td></tr>
+</fieldset><fieldset id="ci_profiler_csession" style="border:1px solid #000;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee"><legend style="color:#000;">&nbsp;&nbsp;SESSION DATA&nbsp;&nbsp;(<span style="cursor: pointer;" onclick="var s=document.getElementById('ci_profiler_session_data').style;s.display=s.display=='none'?'':'none';this.innerHTML=this.innerHTML=='Show'?'Hide':'Show';">Show</span>)</legend><table style='width:100%;display:none' id='ci_profiler_session_data'><tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>session_id&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>cb100a7e0be1638e2b1e464cd640e6a4</td></tr>
 <tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>ip_address&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>127.0.0.1</td></tr>
 <tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>user_agent&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0</td></tr>
-<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>last_activity&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>1364350481</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>last_activity&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>1364377601</td></tr>
 <tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>user_data&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>user_id&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>2</td></tr>
 </table></fieldset>
 
 <fieldset id="ci_profiler_config" style="border:1px solid #000;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
