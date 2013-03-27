@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost:8888/CI/';
-//$config['base_url']	= 'http://localhost/CI/';
+//$config['base_url']	= 'http://localhost:8888/CI/';
+$config['base_url']	= 'http://localhost/CI/';
 
 $config['server_root'] = $_SERVER['DOCUMENT_ROOT'];
 
@@ -96,7 +96,7 @@ $config['charset'] = 'UTF-8';
 | setting this variable to TRUE (boolean).  See the user guide for details.
 |
 */
-$config['enable_hooks'] = FALSE;
+$config['enable_hooks'] = TRUE;
 
 
 /*

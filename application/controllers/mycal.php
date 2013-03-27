@@ -4,9 +4,16 @@
 */
 class Mycal extends CI_Controller
 {
+
+	function __construct()
+	{
+		parent::__construct();
+		//$this->output->enable_profiler(TRUE);
+	}
 	
 	function display($year=null,$month=null)
 	{
+		
 		if (!$year)
 		{
 			$year = date('Y');
@@ -26,8 +33,9 @@ class Mycal extends CI_Controller
 				);
 		}
 
+		$this->benchmark->mark('generate_start');
 		$data['calendar'] = $this->Mycal_model->generate($year,$month);
-
+		$this->benchmark->mark('generate_end');
 		
 		//echo $this->calendar->generate(year, month, $data);
 
